@@ -15,7 +15,7 @@ spec:
         app: my-app
     spec:
       containers:
-      - name: simple-node-kub
-        image: shahjuhi1108/simple-node-kub
+      - name: simple-node
+        image: shahjuhi1108/simple-node
         ports:
         - containerPort: 80
